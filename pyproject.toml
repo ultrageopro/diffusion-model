@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "diffusion model"
+version = "0.1.0"
+description = "implementation of a diffusion model for generating simple images"
+authors = ["Ultrageopro1966 <me@ultrageopro.ru>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = {version = "^2.3.0+cpu", source = "pytorch_cpu"}
+torchvision = {version = "^0.18.0+cpu", source = "pytorch_cpu"}
+
+
+[[tool.poetry.source]]
+name = "pytorch_cpu"
+url = "https://download.pytorch.org/whl/cpu"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
