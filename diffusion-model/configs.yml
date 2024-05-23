@@ -1,0 +1,13 @@
+model:
+  lr: 0.0005
+  save_path: "diffusion-model/model/diffusion_model.pt"
+training:
+  epochs: 7
+  batch_size: 32
+diffusion:
+  steps: 600
+  alphas_min: 0.99
+  alphas_max: 0.9999
+image:
+  image_size: 32
+  num_channels: 1
