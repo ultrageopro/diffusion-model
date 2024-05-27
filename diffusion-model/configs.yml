@@ -1,4 +1,4 @@
-model:
+0model:
   lr: 0.0005
   save_path: "diffusion-model/model/diffusion_model.pt"
 training:
