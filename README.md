@@ -1,4 +1,4 @@
-# 😥 nothing has been done yet...
+# 😥 Testing stage...
 
 ## version 1.0.0
 
@@ -6,12 +6,6 @@
 > the project is at the testing stage
 >
 > if you find an error, write to [issues](https://github.com/UltraGeoDev/Telegram-Backups/issues)
-
-Planned to add:
-- implementation of the diffusion model on `pytorch`
-- model training
-- necessary visualizations
-- a complete description of the code, model, training, algorithms in the form of an article
 
 ## Startup
 1. first, configure the model parameters in the `diffusion-model/configs.yml` file (initial parameters have already been added)
